@@ -1,0 +1,179 @@
+/* My ID Selectors*/
+
+#main-area {
+  background-color: #000000;
+  border: #000000;
+  border-style: solid;
+  border-width: 5px;
+  padding: 0px;
+}
+#header-bar {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 0px;
+}
+#title {
+  font-style: italic;
+  padding: 4px;
+  padding-bottom: 7px;
+}
+#logo {
+  width: auto;
+  height: 75px;
+  float: left;
+  display: block;
+  padding-right: 4px;
+}
+#busbar {
+  background-color: #222222;
+  color: #ffffff;
+  width: 100%;
+  height: 8px;
+  display: block;
+}
+#content {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 7px;
+  word-wrap: break-word;
+  overflow: auto;
+}
+#author-pic {
+  float: left;
+  width: 28%;
+  min-width: 150px;
+  max-width: 200px;
+  display: block;
+  padding-right: 8px;
+}
+#footing {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: right;
+  padding: 4px;
+}
+
+/* Standard Element Selectors */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Comic Neue", sans-serif;
+  font-size: 20px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 2px;
+}
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 2px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 2px;
+}
+h4 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 2px;
+}
+p {
+  font-size: 22px;
+  margin: 0px;
+  padding: 6px;
+}
+hr {
+  border: 0;
+  height: 0;
+  margin-top: 1px;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #dddddd;
+}
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+ul li {
+  margin: 8px;
+}
+button {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+input[type="text"], textarea {
+  padding: 10px;
+  font-size: 20px;
+  margin: 5px;
+  width: 90%;
+  box-sizing: border-box;
+}
+select {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 5px;
+}
+fieldset {
+  border: 1px solid #777;
+  padding: 10px;
+  margin: 10px 0;
+}
+legend {
+  font-size: 24px;
+}
+
+/* Less Unique Class Selectors */
+.navbn {
+  background-color: #777777;
+  color: #ffffff;
+  padding: 4px;
+  display: inline-block;
+  min-width: 36px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbn-red {
+  background-color: #d6102a;
+}
+.navbn-red:hover {
+  background-color: #f82f49;
+}
+.navbn-orange {
+  background-color: #f1900f;
+}
+.navbn-orange:hover {
+  background-color: #ffaa39;
+}
+.navbn-green {
+  background-color: #01ac64;
+}
+.navbn-green:hover {
+  background-color: #0cc26e;
+}
+.navbn-blue {
+  background-color: #0c4fc2;
+}
+.navbn-blue:hover {
+  background-color: #226be9;
+}
+.invisibox-4 {
+  display: block;
+  height: 4px;
+}
+.invisibox-8 {
+  display: block;
+  height: 8px;
+}
+.invisibox-16 {
+  display: block;
+  height: 16px;
+}
